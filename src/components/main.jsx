@@ -1,7 +1,16 @@
+import React from "react";
+import FeatureSection from "./FeatureSection";
+import Automation from "./Automation";
+import Effort from "./Effort";
+import Footer from "./Footer";
+
 export default function main() {
       return (
-            <div>
-                  <h1>main</h1>
-            </div>
+            <>
+                  <FeatureSection />
+                  <Automation />
+                  <Effort />
+                  <Footer />
+            </>
       )
 }
