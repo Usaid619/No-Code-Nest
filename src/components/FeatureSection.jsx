@@ -136,7 +136,13 @@ export default function FeatureSection() {
               <div className="flex flex-col">
                 <div className="w-[11vw] h-[1px] bg-white" />
               </div>
-              <h1 className="text-7xl bg-gradient-to-r from-green-700 via-emerald-800 to-black bg-clip-text text-transparent">
+              <h1 
+              className="text-7xl bg-gradient-to-r from-green-700 via-emerald-800 to-black bg-clip-text text-transparent animate-gradient"
+              style={{
+                WebkitTextStroke: '1px white',
+                WebkitTextFillColor: 'transparent',
+              }}
+              >
                 FEATURES
               </h1>
               <div className="w-[11vw] h-[1px] bg-white" />

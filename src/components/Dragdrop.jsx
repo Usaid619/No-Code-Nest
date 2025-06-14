@@ -1,4 +1,5 @@
 import React from "react";
+import DragAnimation from "./animation/DragAnimation";
 
 export default function Dragdrop() {
       return (
@@ -10,7 +11,9 @@ export default function Dragdrop() {
                               <div className=" absolute h-60 w-60 rounded-full -left-10 top-2 bg-[rgb(255,244,172)]" />
                               <div className=" absolute h-60 w-60 rounded-full z-1 bottom-2 left-140 bg-[rgb(255,244,172)]" />
                               <div className="h-full w-full flex justify-center items-center">
-                                    <div className=" h-[75%] w-[75%] z-2 rounded-2xl shadow-[-4px_4px_8px_rgba(0,0,1,0.75)] bg-white"></div>
+                                    <div className=" h-[78%] w-[90%] z-2 rounded-2xl shadow-[-4px_4px_8px_rgba(0,0,1,0.75)] bg-white">
+                                          <DragAnimation />
+                                    </div>
                               </div>
                         </div>
                         <div className="h-full w-full py-15 px-15">
