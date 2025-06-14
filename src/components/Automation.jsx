@@ -1,4 +1,5 @@
 import React from "react";
+import AutomAnime from "./animation/AutomAnime";
 
 export default function Automation() {
       return (
@@ -18,7 +19,9 @@ export default function Automation() {
                         <div className=" absolute h-60 w-60 rounded-full -right-10 top-2 bg-[rgba(211,255,185,0.85)]"></div>
                         <div className=" absolute h-60 w-60 rounded-full z-1 bottom-2 right-140 bg-[rgba(211,255,185,0.85)]"></div>
                         <div className="h-full w-full flex justify-center items-center">
-                              <div className=" h-[70%] w-[70%] z-2 rounded-2xl shadow-[4px_4px_8px_rgba(0,0,1,0.75)] bg-white"></div>
+                              <div className=" h-[70%] w-[70%] z-2 rounded-2xl shadow-[4px_4px_8px_rgba(0,0,1,0.75)] bg-white">
+                                    <AutomAnime />
+                              </div>
                         </div>
                   </div>
             </div>
