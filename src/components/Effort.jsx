@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Effort() {
       return (
-            <>
-            <div className="bg-[#f5f7fa] flex items-center relative justify-center h-screen w-full">
+            <div className="h-[115vh] w-full flex flex-col bg-[#f5f7fa]">
+            <div className="flex items-center relative justify-center">
                   <div className="absolute h-50 w-50 p-10 bg-[rgba(204,165,255,0.75)] rounded-full top-7 -left-10"/>
                   <div className="absolute h-50 w-50 p-10 bg-[rgba(204,165,255,0.75)] rounded-full bottom-8 left-125"/>
                   <div className="h-full w-full flex justify-center items-center">
@@ -51,6 +51,9 @@ export default function Effort() {
                         </div>
                   </div>
             </div>
-            </>
+            <button className="block mx-auto px-4 py-2 w-60 h-10 mb-4 rounded-full bg-gradient-to-b from-emerald-400 to-emerald-600 text-white font-bold text-sm shadow-lg hover:scale-105 transition-transform duration-200">
+                  Compare With Other Platform
+            </button>
+            </div>
       );
 }
