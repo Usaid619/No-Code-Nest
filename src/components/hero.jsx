@@ -4,8 +4,8 @@ import HeroAnimation from "./animation/HeroAnimation";
 
 export default function Hero() {
   return (
-    <section className="h-[182vh] bg-white text-black flex items-center justify-center overflow-x-hidden">
-      <div className="w-full min-h-screen grid grid-cols-10 md:grid-cols-12 lg:grid-cols-12 z-0">
+    <section className="h-[182vh] bg-[#f5f7fa] text-black flex items-center justify-center overflow-x-hidden scrollbar">
+      <div className="w-full h-screen grid grid-cols-10 md:grid-cols-12 lg:grid-cols-12 z-0">
         {Array.from({ length: 130 }).map((_, i) => (
           <div
             key={i}
