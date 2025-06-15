@@ -26,7 +26,7 @@ export default function Hero() {
         <div className="flex-1 flex justify-end mr-6">
           <button className="bg-gradient-to-b from-green-600 via-green-700 to-black text-white px-4 py-2 rounded-[10rem] flex items-center gap-2 shadow-md">
             Try NoNestCode Free
-            <i className="ri-rocket-2-line rotate-45 text-xl"></i>
+            <img src="/assets/rocket.svg" alt="" className="w-[1.5rem] h-[1.5rem]"/>
           </button>
         </div>
       </div>
@@ -44,7 +44,7 @@ export default function Hero() {
       </p>
       <button className="absolute top-[38rem] bg-gradient-to-b from-green-700 via-green-800 to-black text-white px-4 py-2 rounded-[10rem] flex items-center gap-2 shadow-md">
         Start Free Trial
-        <i className="ri-rocket-2-line rotate-45 text-xl"></i>
+        <img src="/assets/rocket.svg" alt="" className="w-[1.5rem] h-[1.5rem]"/>
       </button>
       <div className="h-[17.5rem] w-[17.5rem] absolute right-[1rem] top-[36.5rem] rounded-full bg-[#d8f4bc]"></div>
       <div className="h-[17.5rem] w-[17.5rem] absolute rounded-full left-[1rem] top-[65rem] bg-[#d8f4bc]"></div>
