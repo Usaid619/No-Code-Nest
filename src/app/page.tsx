@@ -6,6 +6,3 @@ export default function  Home  (){
    </>
   );
 }
-
-
-export const name = "zaman"
