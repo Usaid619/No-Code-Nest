@@ -1,4 +1,5 @@
 import React from "react";
+import SeoAnimation from "./animation/SeoAnimation";
 
 export default function Effort() {
       return (
@@ -7,7 +8,9 @@ export default function Effort() {
                   <div className="absolute h-50 w-50 p-10 bg-[rgba(204,165,255,0.75)] rounded-full top-7 -left-10"/>
                   <div className="absolute h-50 w-50 p-10 bg-[rgba(204,165,255,0.75)] rounded-full bottom-8 left-125"/>
                   <div className="h-full w-full flex justify-center items-center">
-                        <div className=" h-[70%] w-[70%] z-2 rounded-2xl shadow-[-4px_4px_8px_rgba(0,0,1,0.75)] bg-white"></div>
+                        <div className=" h-[70%] w-[70%] z-2 rounded-2xl shadow-[-4px_4px_8px_rgba(0,0,1,0.75)] bg-white">
+                              <SeoAnimation />
+                        </div>
                   </div>
                   <div className=" h-full w-full py-5 px-20">
                         <div className="mb-18">

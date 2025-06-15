@@ -22,3 +22,41 @@ body {
 }
 
 
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientShift 5s ease-in-out infinite alternate;
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+@layer utilities {
+  @media (min-width: 990px) and (max-width: 1024px) {
+     .between990\:top-20rem {
+      top: 8rem;
+    }
+
+    .between990\:leading-\[5rem\] {
+      line-height: 6rem;
+    }
+
+    .between990\:text-\[3\.2rem\] {
+      font-size: 3.2rem;
+    }
+  }
+}
