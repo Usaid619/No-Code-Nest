@@ -4,7 +4,7 @@ import HeroAnimation from "./animation/HeroAnimation";
 
 export default function Hero() {
   return (
-    <section className="relative h-[182vh] bg-[#f5f7fa] text-black overflow-x-hidden">
+    <section className="relative h-[182vh] bg-[#f5f7fa] text-black overflow-x-hidden scrollbar">
       
       <div className="absolute top-0 left-0 w-full h-full grid grid-cols-10 md:grid-cols-12 lg:grid-cols-12 z-0">
         {Array.from({ length: 131 }).map((_, i) => (
@@ -14,6 +14,8 @@ export default function Hero() {
           ></div>
         ))}
       </div>
+
+      
       <div className="absolute top-0 w-full px-4 sm:px-6 py-4 flex justify-between items-center z-10">
         <div className="flex-1 flex justify-start ml-2 sm:ml-6">
           <h1 className="font-extrabold text-[11px] sm:text-2xl md:text-2xl">
@@ -97,7 +99,7 @@ export default function Hero() {
         h-[15vh] w-[14vw] top-[62vh] right-[1vw]
         sm:h-[20vh] sm:w-[22vw] sm:top-[73vh]
         md:h-[27vh] md:w-[26vw] md:top-[44%]
-        lg:h-[31vh] lg:w-[17vw] lg:top-[58%]
+        lg:h-[31vh] lg:w-[15vw] lg:top-[58%]
         xl:top-[48%]">
       </div>
 
@@ -106,7 +108,7 @@ export default function Hero() {
         h-[15vh] w-[14vw] bottom-[72vh]
         sm:h-[20vh] sm:w-[22vw] sm:top-[105vh]
         md:h-[29vh] md:w-[26vw] md:top-[75%]
-        lg:h-[31vh] lg:w-[17vw] lg:top-[97%] lg:left-0
+        lg:h-[31vh] lg:w-[15vw] lg:top-[97%] lg:left-0
         xl:top-[87%]">
       </div>
 
