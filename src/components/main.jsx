@@ -4,7 +4,7 @@ import FeatureSection from "./FeatureSection";
 import Dragdrop from "./Dragdrop";
 import Automation from "./Automation";
 import Effort from "./Effort";
-import Testimonial from "./Testimonial";
+import Testimonial from "./testimonial";
 import Launch from "./Launch";
 import Footer from "./Footer";
 
