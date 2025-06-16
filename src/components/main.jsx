@@ -9,16 +9,16 @@ import Launch from "./Launch";
 import Footer from "./Footer";
 
 export default function main() {
-      return (
-            <>
-                  <Hero />
-                  <FeatureSection />
-                  <Dragdrop />
-                  <Automation />
-                  <Effort />
-                  <Testimonial />
-                  <Launch />
-                  <Footer />
-            </>
-      )
+  return (
+    <>
+      <Hero />
+      <FeatureSection />
+      <Dragdrop />
+      <Automation />
+      <Effort />
+      <Testimonial />
+      <Launch />
+      <Footer />
+    </>
+  );
 }

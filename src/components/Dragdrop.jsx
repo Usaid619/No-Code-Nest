@@ -2,31 +2,88 @@ import React from "react";
 import DragAnimation from "./animation/DragAnimation";
 
 export default function Dragdrop() {
-      return (
-            <>
-            <div className="h-[80vh] w-full bg-[#f5f7fa] flex items-center flex-col">
-                  <h2 className="text-4xl text-emerald-500 font-extrabold">Why Choose No Code Nest ?</h2>
-                  <div className="flex h-full w-full relative items-center justify-center ">
-                        <div className="h-full w-full py-10 px-15">
-                              <div className=" absolute h-60 w-60 rounded-full -left-10 top-2 bg-[rgb(255,244,172)]" />
-                              <div className=" absolute h-60 w-60 rounded-full z-1 bottom-2 left-140 bg-[rgb(255,244,172)]" />
-                              <div className="h-full w-full flex justify-center items-center">
-                                    <div className=" h-[78%] w-[90%] z-2 rounded-2xl shadow-[-4px_4px_8px_rgba(0,0,1,0.75)] bg-white">
-                                          <DragAnimation />
-                                    </div>
-                              </div>
-                        </div>
-                        <div className="h-full w-full py-15 px-15">
-                              <div className="mb-15">
-                                    <h1 className="text-5xl text-gray-900 font-extrabold">Drag And Drop</h1>
-                              </div>
-                              <div>
-                                    <h4 className="text-gray-500 font-medium text-2xl mb-8"><span>•</span>Simply drag sections like banners, products, Or <br /> Videos where you want them—no code needed.</h4>
-                                    <h4 className="text-gray-500 font-medium text-2xl mb-3"><span>•</span>Instantly see changes live as you move blocks <br /> Around the page.</h4>
-                              </div>
-                        </div>
-                  </div>
+  return (
+    <>
+      <div className="min-h-[80vh] w-full bg-[#f5f7fa] flex flex-col items-center px-[clamp(1rem,4vw,3rem)] py-[clamp(2rem,5vh,4rem)]">
+      
+        <h2 className="text-[clamp(1.8rem,4vw,2.7rem)] text-emerald-500 font-extrabold text-center mb-[clamp(1.5rem,5vh,3rem)]">
+          Why Choose No Code Nest?
+        </h2>
+
+        <div className="flex flex-col lg:flex-row w-full h-full relative items-center justify-center gap-[clamp(2rem,5vw,4rem)]">
+        
+          <div className="relative w-full lg:w-1/2 h-[clamp(22rem,55vh,32rem)] flex items-center justify-center px-4">
+           
+            <div
+              className="
+                 absolute rounded-full bg-[rgb(255,244,172)] z-0
+                 h-24 w-24     /* <640px (base) */
+  sm:h-32 sm:w-32
+  md:h-36 md:w-36
+  lg:h-40 lg:w-40
+  xl:h-44 xl:w-44
+  top-[-1rem]       /* base */
+  sm:top-[-2rem]
+  md:top-[-2.5rem]
+  lg:top-[-3rem]
+  xl:top-[-3.5rem]
+  left-[-0.5rem]     /* base */
+  sm:left-[-1rem]
+  md:left-[-1.5rem]
+  lg:left-[-2rem]
+  xl:left-[-2.5rem]
+"
+            />
+
+            <div
+              className="
+  absolute rounded-full bg-[rgb(255,244,172)] z-0
+  h-24 w-24     /* <640px */
+  sm:h-32 sm:w-32
+  md:h-36 md:w-36
+  lg:h-40 lg:w-40
+  xl:h-44 xl:w-44
+  bottom-[-1.5rem]     /* base */
+  sm:bottom-[-2rem]
+  md:bottom-[-2.5rem]
+  lg:bottom-[-3rem]
+  xl:bottom-[-3.5rem]
+  left-[80%]     /* base */
+  sm:left-[80%]
+  md:left-[83%]
+  lg:left-[78%]
+  xl:left-[80%]
+"
+            />
+
+            
+            <div className="h-[85%] w-[90%] rounded-2xl bg-white shadow-[-4px_4px_8px_rgba(0,0,1,0.3)] z-10 flex items-center justify-center">
+              <DragAnimation />
             </div>
-            </>
-      )
+          </div>
+
+         
+          <div className="w-full lg:w-1/2 px-[clamp(1rem,4vw,2rem)] py-[clamp(1rem,4vh,2rem)]">
+            <div className="mb-[clamp(1rem,3vh,2rem)]">
+              <h1 className="text-[clamp(2rem,4vw,2.8rem)] text-gray-900 font-extrabold">
+                Drag And Drop
+              </h1>
+            </div>
+
+            <div className="text-[clamp(1rem,2vw,1.3rem)] text-gray-500 font-medium space-y-[clamp(1rem,2vh,1.5rem)] leading-relaxed">
+              <p>
+                <span className="text-emerald-500 font-bold">•</span> Simply
+                drag sections like banners, products, or videos where you want
+                them—no code needed.
+              </p>
+              <p>
+                <span className="text-emerald-500 font-bold">•</span> Instantly
+                see changes live as you move blocks around the page.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
