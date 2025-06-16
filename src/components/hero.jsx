@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="h-[182vh] bg-[#f5f7fa] text-black flex items-center justify-center overflow-x-hidden scrollbar">
       <div className="w-full h-screen grid grid-cols-10 md:grid-cols-12 lg:grid-cols-12 z-0">
-        {Array.from({ length: 130 }).map((_, i) => (
+        {Array.from({ length: 100 }).map((_, i) => (
           <div
             key={i}
             className="w-[26rem] h-[8rem] bg-gray-100 border-[2px] border-white rounded-sm"
