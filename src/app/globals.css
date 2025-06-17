@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "remixicon/fonts/remixicon.css";
 
 :root {
   --background: #ffffff;
@@ -37,11 +36,10 @@ body {
   animation: gradientShift 5s ease-in-out infinite alternate;
 }
 
-.scrollbar::-webkit-scrollbar {
-  display: none;
-}
-
 .scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+.scrollbar::-webkit-scrollbar {
+  display: none;
 }
