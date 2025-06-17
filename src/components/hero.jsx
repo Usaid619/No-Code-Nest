@@ -6,11 +6,11 @@ export default function Hero() {
   return (
     <section className="relative h-[182vh] bg-[#f5f7fa] text-black overflow-x-hidden scrollbar">
       
-      <div className="absolute top-0 left-0 w-full h-full grid grid-cols-10 md:grid-cols-12 lg:grid-cols-12 z-0">
+      <div className="absolute top-0 left-0 w-full h-full grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 xl:grid-cols-12 z-0">
         {Array.from({ length: 131 }).map((_, i) => (
           <div
             key={i}
-            className="w-[26rem] h-[8rem] bg-gray-100 border-[2px] border-white rounded-sm"
+            className="w-[8rem] h-[4rem] sm:w-[12rem] sm:h-[5rem] md:w-[16rem] md:h-[6rem] lg:w-[20rem] lg:h-[7rem] xl:w-[26rem] xl:h-[8rem] bg-gray-100 border-[1px] sm:border-[1.5px] md:border-[2px] border-white rounded-sm"
           ></div>
         ))}
       </div>
