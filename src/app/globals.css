@@ -137,7 +137,7 @@ body {
 @layer utilities {
   @media (min-width: 830px) and (max-width: 979px) {
     .at-830-979\:top-40 {
-      top: 39% !important;
+      top: 43% !important;
     }
     .at-830-979\:bottom-40 {
       bottom: 5% !important;
@@ -149,9 +149,7 @@ body {
     .at-830-979\:right-8 {
       right: 10.5% !important;
     }
-    .at-830-979\:mt-12 {
-      margin-top: 0.7rem !important; 
-    }
+    
     .at-830-979\:ml-12 {
       margin-left: .7rem !important; 
     }
@@ -172,7 +170,7 @@ body {
       width: 16.6% !important;
     }
     .at-980-1279\:top-40 {
-      top: 39% !important;
+      top: 43% !important;
     }
     .at-980-1279\:top-44 {
       top: 43% !important;

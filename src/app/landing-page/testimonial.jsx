@@ -26,9 +26,9 @@ export default function Testimonial() {
             src: "/assets/img8.avif",
             className: `
               top-[27.8%] left-[5%]
-              sm:left-[5%] sm:top-[33%]
-              md:top-[37%]
-              xl:left-[14%] xl:top-[39.2%]
+              sm:left-[5%] sm:top-[38.7%]
+              md:top-[43%]
+              xl:left-[14%] xl:top-[45.2%]
               at-830-979:top-40 at-980-1279:width-15p at-980-1279:top-40
             `,
           },
@@ -44,7 +44,7 @@ export default function Testimonial() {
           {
             src: "/assets/img13.avif",
             className: `
-              top-[18%] left-[23%]
+              top-[19%] left-[23%]
               sm:top-[30%]
               md:left-[22.8%]
               xl:top-[19.5%] xl:left-[23%]
@@ -62,7 +62,7 @@ export default function Testimonial() {
           {
             src: "/assets/img5.jpeg",
             className: `
-              top-[15%] left-[41.3%]
+              top-[16%] left-[41.3%]
               sm:opacity-0
               xl:top-[16.3%] xl:left-[41%] xl:opacity-100
             `,
@@ -91,10 +91,9 @@ export default function Testimonial() {
             src: "/assets/img6.jpeg",
             className: `
               top-[27.8%] right-[5%]
-              sm:top-[33%] 
-              md:top-[37%] 
+              sm:top-[38.7%]
+              md:top-[43%] 
               xl:top-[49.3%] xl:right-[5%]
-              at-830-979:mt-12
               at-980-1279:width-15p img6-980-1279
             `,
           },
@@ -117,7 +116,7 @@ export default function Testimonial() {
           {
             src: "/assets/img4.jpeg",
             className: `
-              top-[18%] right-[23%]
+              top-[19%] right-[23%]
               sm:top-[30%]
               md:right-[22.5%] md:right-[23%]
               xl:top-[20%] xl:right-[23%]
@@ -150,43 +149,51 @@ export default function Testimonial() {
           />
         ))}
 
-        <div className="absolute h-[128px] w-[120px] bg-gray-100 rounded-b-xl left-[5%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[118px] xl:w-[111px] xl:opacity-100"></div>
-        <div className="absolute h-[70px] w-[120px] bg-gray-100 rounded-b-xl left-[14%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[70px] xl:w-[111px] xl:opacity-100"></div>
-        <div className="absolute h-[115px] w-[120px] bg-gray-100 rounded-b-xl left-[23%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[115px] xl:w-[111px] xl:opacity-100"></div>
-        <div className="absolute h-[49px] w-[120px] bg-gray-100 rounded-b-xl left-[32%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[49px] xl:w-[111px] xl:opacity-100"></div>
-        <div className="absolute h-[95px] w-[120px] bg-gray-100 rounded-b-xl left-[41%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[95px] xl:w-[111px] xl:opacity-100"></div>
-        <div className="absolute h-[16px] w-[124px] bg-[#f3f4f5] rounded-b-xl left-[50%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[16px] xl:w-[111px] xl:opacity-100"></div>
-        <div className="absolute h-[49px] w-[120px] bg-[#f3f4f5] rounded-b-xl right-[32%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[49px] xl:w-[111px] xl:opacity-100"></div>
-        <div className="absolute h-[115px] w-[120px] bg-[#f3f4f5] rounded-b-xl right-[23%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[115px] xl:w-[111px] xl:opacity-100"></div>
-        <div className="absolute h-[70px] w-[120px] bg-[#f3f4f5] rounded-b-xl right-[14%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[69px] xl:w-[111px] xl:opacity-100"></div>
-        <div className="absolute h-[128px] w-[120px] bg-[#f3f4f5] rounded-b-xl right-[5%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[128px] xl:w-[111px] xl:opacity-100"></div>
+        <div className="absolute h-[128px] w-[120px] bg-gray-50 rounded-b-xl left-[5%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[118px] xl:w-[111px] xl:opacity-100"></div>
+        <div className="absolute h-[70px] w-[120px] bg-gray-50 rounded-b-xl left-[14%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[70px] xl:w-[111px] xl:opacity-100"></div>
+        <div className="absolute h-[115px] w-[120px] bg-gray-50 rounded-b-xl left-[23%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[115px] xl:w-[111px] xl:opacity-100"></div>
+        <div className="absolute h-[49px] w-[120px] bg-gray-50 rounded-b-xl left-[32%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[49px] xl:w-[111px] xl:opacity-100"></div>
+        <div className="absolute h-[95px] w-[120px] bg-gray-50 rounded-b-xl left-[41%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[95px] xl:w-[111px] xl:opacity-100"></div>
+        <div className="absolute h-[16px] w-[124px] bg-gray-50 rounded-b-xl left-[50%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[16px] xl:w-[111px] xl:opacity-100"></div>
+        <div className="absolute h-[49px] w-[120px] bg-gray-50 rounded-b-xl right-[32%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[49px] xl:w-[111px] xl:opacity-100"></div>
+        <div className="absolute h-[115px] w-[120px] bg-gray-50 rounded-b-xl right-[23%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[115px] xl:w-[111px] xl:opacity-100"></div>
+        <div className="absolute h-[70px] w-[120px] bg-gray-50 rounded-b-xl right-[14%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[69px] xl:w-[111px] xl:opacity-100"></div>
+        <div className="absolute h-[128px] w-[120px] bg-gray-50 rounded-b-xl right-[5%] opacity-0 sm:h-[90px] sm:w-[70px] sm:opacity-0 xl:h-[128px] xl:w-[111px] xl:opacity-100"></div>
 
-        <div
-          className="absolute top-[54%] text-[2rem] at-400-500:left-16 at-500-639:left-6 left-[1%] text-center font-bold -translate-y-1/2
-                        sm:top-[65%] sm:left-[20%] sm:text-[2rem] sm:leading-12
-                        md:left-[18%] md:text-[2.5rem]
-                        xl:left-[30%] xl:text-[3rem]
-                        at-830-979:right-8 at-980-1279:right-44
-                        leading-10 "
-        >
-          Trusted By Leaders <br />
-          <span className="text-green-600">From Various Industries</span>
-        </div>
+      <div
+  className="absolute top-[45%] left-1/2 -translate-x-1/2 
+             text-[2rem] leading-[1.3] text-center font-bold 
+             max-w-[90%] w-[90%] 
 
-        <p
-          className="absolute bottom-[25%] at-400-500:left-6 at-500-639:right-6 at-500-639:top-6 right-[2.3%] text-center text-black text-[1rem]
-                      sm:left-[7%] sm:top-[75%] sm:text-[0.9rem]
-                      md:top-[75%] md:text-[1.1rem]
-                      xl:left-[8%]
-                      at-830-979:left-8 at-980-1279:left-44"
-        >
-          Learn why professionals trust our solutions to
-          <br /> complete their customer journeys.
-        </p>
+             sm:text-[2rem] sm:top-[58%]
+             md:text-[2.3rem] md:top-[59%]
+             lg:text-[2.6rem] lg:top-[55%]
+             xl:text-[3rem]"
+>
+  Trusted By Leaders <br />
+  <span className="text-green-600">From Various Industries</span>
+</div>
+
+<p
+  className="absolute bottom-[24%] left-1/2 -translate-x-1/2
+             text-[0.8rem] text-center text-black leading-[1.5]
+             max-w-[90%] w-[90%] break-words tracking-tight
+
+             sm:text-[1rem] sm:bottom-[18%]
+             md:text-[1rem] md:bottom-[15%]
+             lg:text-[1.1rem]
+             xl:text-[1.2rem]"
+>
+  Learn why professionals trust our solutions to
+  <br /> complete their customer journeys.
+</p>
+
+
+
 
         <button
           className="absolute left-[30%] bottom-[12%] at-500-639:bottom-16  px-6 py-3 text-green-800 font-semibold rounded-xl
-  sm:left-[38%] sm:bottom-[7%]
+  sm:left-[38%] sm:bottom-[6%]
   md:bottom-[6%]
   xl:left-[45%] xl:bottom-[7%]
   at-830-979:ml-12 at-830-979:bottom-40
