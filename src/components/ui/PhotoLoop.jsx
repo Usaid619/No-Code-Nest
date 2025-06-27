@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react';
 export default function PhotoLoop({ index, photos, bgColor,className }) {
   const [current, setCurrent] = useState(0);
 
-
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % photos?.length);
