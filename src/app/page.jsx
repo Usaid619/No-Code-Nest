@@ -13,7 +13,7 @@ export default function Page() {
       <OneMinute/>
       <FeatureSection />
       <Pitch/>
-      {/* <Testimonial /> */}
+      <Testimonial /> 
       <CallToAction/>
     </div>
   );

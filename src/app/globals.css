@@ -5,7 +5,7 @@
   --foreground: #171717;
 }
 
-
+/*
 @layer components {
   .restrict {
     @apply flex flex-col gap-16 px-5 sm:px-[30px] lg:px-[57px];
@@ -19,6 +19,7 @@
 @theme inline{
   --font-rockSalt : var(--font-rock-salt);
 }
+  */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -116,3 +117,125 @@ body {
     transparent .1rem);
     background-size: 14rem 10rem; */
 }
+
+@layer utilities {
+  @media (min-width: 990px) and (max-width: 1024px) {
+    .between990\:top-20rem {
+      top: 8rem;
+    }
+
+    .between990\:leading-\[5rem\] {
+      line-height: 6rem;
+    }
+
+    .between990\:text-\[3\.2rem\] {
+      font-size: 3.2rem;
+    }
+  }
+}
+
+@layer utilities {
+  @media (min-width: 830px) and (max-width: 979px) {
+    .at-830-979\:top-40 {
+      top: 39% !important;
+    }
+    .at-830-979\:bottom-40 {
+      bottom: 5% !important;
+    }
+
+    .at-830-979\:left-8 {
+      left: 9.5% !important;
+    }
+    .at-830-979\:right-8 {
+      right: 10.5% !important;
+    }
+    .at-830-979\:mt-12 {
+      margin-top: 0.7rem !important; 
+    }
+    .at-830-979\:ml-12 {
+      margin-left: .7rem !important; 
+    }
+
+    .at-830-979\:opacity-100 {
+      opacity: 1 !important;
+    }
+
+    .at-830-979\:width-145p {
+      width: 21% !important;
+    }
+  }
+}
+
+@layer utilities {
+  @media (min-width: 980px) and (max-width: 1279px) {
+    .at-980-1279\:width-15p {
+      width: 16.6% !important;
+    }
+    .at-980-1279\:top-40 {
+      top: 39% !important;
+    }
+    .at-980-1279\:top-44 {
+      top: 43% !important;
+    }
+    .img6-980-1279 {
+      top: 43% !important;
+    }
+    .img14-980-1279 {
+      width: 20.3% !important;
+      left: 39.9% !important;
+    }
+    .at-980-1279\:right-44 {
+      right: 20.9% !important;
+    }
+    .at-980-1279\:left-44 {
+      left: .9% !important;
+    }
+    
+    .at-980-1279\:ml-44 {
+      margin-left: 2.9% !important;
+    }
+    .at-980-1279\:mt-44 {
+      margin-top: 13.9% !important;
+    }
+  }
+}
+
+@layer utilities {
+  @media (min-width: 400px) and (max-width: 500px) {
+    .at-400-500\:left-6 {
+      left: 6% !important;
+    }
+    .at-400-500\:left-16 {
+      left: 8% !important;
+    }
+    
+  }
+}
+
+@layer utilities {
+  @media (min-width: 500px) and (max-width: 639px) {
+    .at-500-639\:left-6 {
+      left: 12vw !important;
+    }
+    .at-500-639\:right-6 {
+      right: 16vw !important;
+    }
+    .at-500-639\:top-6 {
+      top: 64% !important;
+    }
+    .at-500-639\:bottom-16 {
+      bottom: 16% !important;
+    }
+    
+  }
+}
+
+@layer utilities {
+  @media (min-width: 375px) and (max-width: 639.98px) {
+    .circle-375-639 {
+      height: 20vw !important;
+      width: 20vw !important;
+    }
+  }
+}
+
