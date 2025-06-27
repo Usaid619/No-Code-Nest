@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Testimonial() {
   return (
-    <div className="min-h-screen w-full bg-[#f2f2f2] text-black flex items-center justify-center overflow-hidden">
+    <div className="min-h-screen w-full text-black flex items-center justify-center overflow-hidden">
       <div className="absolute h-[90vh] w-[90vw] bg-white rounded-4xl shadow-xl">
         {[
           {
@@ -208,4 +208,3 @@ export default function Testimonial() {
     </div>
   );
 }
-
